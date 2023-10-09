@@ -1,3 +1,10 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@tanstack/eslint-plugin-query/recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "@tanstack/query"
+  ]
 }
